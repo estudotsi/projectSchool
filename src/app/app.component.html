@@ -1,4 +1,4 @@
-<app-toolbar-menu [menuTitle]='menuName' [popText]="popText" [shadow]="applyShadow"></app-toolbar-menu>
+<app-toolbar-menu [menuTitle]='menuName' [popText]="popText" [shadow]="applyShadow"  [items_menu]="items_menu" ></app-toolbar-menu>
 <mat-sidenav-container>
   <mat-sidenav
     class="sidenav mat-elevation-z2"
@@ -6,6 +6,7 @@
     [opened]="!isSmallScreen"
     [fixedInViewport]="true"
     [mode]="sidenavMode"
+
   >
   <mat-toolbar>
     <img class="avatar mat-elevation-z4" src="../assets/Iconarchive-Robot-Avatar-White-3-Robot-Avatar.1024.png" width="200px" alt="">
